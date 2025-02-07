@@ -6,7 +6,7 @@ Frontend:
 
 HTML5, CSS3, JavaScript
 Pug (motor de plantillas)
-Bootstrap (diseño responsivo)
+Bootstrap 5
 
 Backend:
 Node.js, Express.js
@@ -17,4 +17,5 @@ MySQL
 
 Otros servicios:
 JSON, AJAX (para comunicación asíncrona)
+Postman (pruebas de API)
 Git (control de versiones)
