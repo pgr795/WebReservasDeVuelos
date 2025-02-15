@@ -9,13 +9,10 @@ Pug (motor de plantillas)
 Bootstrap 5
 
 Backend:
-Node.js, Express.js
-PHP (para ciertas integraciones)
+Node.js PHP
 
 Base de Datos:
 MySQL
 
 Otros servicios:
 JSON, AJAX (para comunicación asíncrona)
-Postman (pruebas de API)
-Git (control de versiones)
