@@ -1,7 +1,7 @@
 <?php
-function comprobarPasajero($conexion,$usuario,$password){
+function comprobarPasajero($conexion,$usuario){
 	try{
-		$consulta=$conexion->prepare("SELECT emailaddress,birthdate FROM passengerdetails WHERE emailaddress='$usuario' AND birthdate='$password'");
+		$consulta=$conexion->prepare("SELECT emailaddress FROM passengerdetails WHERE emailaddress='$usuario'");
 		$consulta->execute();
 		$resultado= $consulta->fetchAll();
 		return $resultado;
@@ -11,9 +11,9 @@ function comprobarPasajero($conexion,$usuario,$password){
 		echo $e->getMessage();
 	}
 }
-function insertPasajero($conexion,$idParaAsignar,$nombre,$nacimiento,$sexo,$calle,$ciudad,$cp,$pais,$email,$telefono){
+function insertPasajero($conexion,$idParaAsignar,$nombre,$apellidos,$calle,$cp,$ciudad,$pais,$telefono,$nacimiento,$email,$password){
 	try{
-		$insert= "INSERT INTO passengerdetails VALUES ('$idParaAsignar','$nombre','$nacimiento','$sexo','$calle','$ciudad','$cp','$pais','$email','$telefono')";
+		$insert= "INSERT INTO passengerdetails VALUES ('$idParaAsignar','$nombre','$apellidos','$calle','$cp','$ciudad','$pais','$telefono','$nacimiento','$email','$password')";
 		$conexion->exec($insert);
 		echo "Pasajero insertado";
 	}

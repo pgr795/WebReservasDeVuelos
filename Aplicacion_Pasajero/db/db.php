@@ -18,7 +18,6 @@
 	  {
 		echo "Error: " . $e->getMessage();
 	  }
-
 	  return $conn;
 	}
 ?>
