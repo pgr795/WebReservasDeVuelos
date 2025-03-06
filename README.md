@@ -2,7 +2,7 @@
 
 ###
 
-<h4 align="left">Esta aplicación web permite a los pasajeros reservar vuelos de manera sencilla, gestionar cancelaciones anticipadas y elegir destinos con tarifas dinámicas según la ubicación en el avión. Además, ofrece un sistema digital de billetes para agilizar el paso por los controles del aeropuerto sin necesidad de un ticket físico.<br><br>🛠️ Tecnologías utilizadas<br><br>Frontend:<br>HTML5<br>CSS3<br>JavaScript<br>Pug (motor de plantillas)<br>Bootstrap 5<br><br>Backend:<br>PHP<br><br>Base de Datos:<br>MySQL<br><br>Otros servicios:<br>Laravel</h4>
+<h4 align="left">Esta aplicación web permite a los pasajeros reservar vuelos de manera sencilla, gestionar cancelaciones anticipadas y elegir destinos con tarifas dinámicas según la ubicación en el avión. Además, ofrece un sistema digital de billetes para agilizar el paso por los controles del aeropuerto sin necesidad de un ticket físico.<br><br>🛠️ Tecnologías utilizadas<br><br>Frontend:<br>HTML5<br>CSS3<br>JavaScript<br>Bootstrap 5<br><br>Backend:<br>PHP<br><br>Base de Datos:<br>MySQL<br><br>Framework:<br>CodeIgniter</h4>
 
 ###
 
